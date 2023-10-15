@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div class="single-address">
-                            <a href="#" class="button btn btn-default btn-sm"><i class="fa fa-reply-all"></i> GET A
+                            <a href="{{route('web.apply-now')}}" class="button btn btn-default btn-sm"><i class="fa fa-reply-all"></i> GET A
                                 QUOTES</a>
                         </div>
                     </div>
@@ -71,25 +71,25 @@
                                     <li> <a href="index-4.html">Home 3</a></li>
                                 </ul>
                             </li>
-                            <li><a href="about.html">About us </a></li>
+                            <li><a href="{{route('web.about-us')}}">About us </a></li>
                             <li><a href="{{ route('web.services') }}">Service</a>
                                 <ul>
                                     <li><a href="{{ route('web.services-image') }}">Services Image</a></li>
-                                    <li><a href="business-loan.html">Business Loan</a></li>
-                                    <li><a href="education-loan.html">Education Loan</a></li>
-                                    <li><a href="car-loan.html">Car Loan</a></li>
-                                    <li><a href="home-loan.html">Home Loan</a></li>
+                                    <li><a href="{{route('web.business-loan')}}">Business Loan</a></li>
+                                    <li><a href="{{route('web.educational-loan')}}">Education Loan</a></li>
+                                    <li><a href="{{route('web.car-loan')}}">Car Loan</a></li>
+                                    <li><a href="{{route('web.home-loan')}}">Home Loan</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul>
-                                    <li> <a href="calculator.html">Calculator</a></li>
+                                    {{-- <li> <a href="calculator.html">Calculator</a></li> --}}
                                     <li> <a href="gallery.html">Gallery</a></li>
                                     <li><a href="{{ route('web.team') }}">Team</a></li>
                                     <li><a href="{{ route('web.testimonial') }}">Testimonials</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="{{route('web.faq')}}">FAQ</a></li>
                                     <li><a href="{{ route('web.ways') }}">How It Works</a></li>
-                                    <li><a href="apply-now.html">Apply Now</a></li>
+                                    <li><a href="{{ route('web.apply-now')}}">Apply Now</a></li>
                                     <li><a href="404.html">404 page</a></li>
                                 </ul>
                             </li>
@@ -98,7 +98,7 @@
                                     <li> <a href="{{ route('web.single') }}">Single Blog</a></li>
                                 </ul>
                             </li> --}}
-                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="{{route('web.contact-us')}}">Contact us</a></li>
                         </ul>
                     </div>
                 </div>

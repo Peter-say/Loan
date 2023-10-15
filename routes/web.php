@@ -28,4 +28,18 @@ Route::prefix('web')->as('web.')->group(function () {
     Route::get('team', [PageController::class, "team"])->name("team");
     Route::get('testimonial', [PageController::class, "testimonial"])->name("testimonial");
 
+    Route::get('apply-now', [PageController::class, "applyNow"])->name("apply-now");
+    Route::post('send-application', [PageController::class, "sendApplication"])->name("send-application");
+
+    // Loan route section //
+    Route::get('business-loan', [PageController::class, "businessLoan"])->name("business-loan");
+    Route::get('car-loan', [PageController::class, "carLoan"])->name("car-loan");
+    Route::get('educational-loan', [PageController::class, "educationalLoan"])->name("educational-loan");
+    Route::get('home-loan', [PageController::class, "homeLoan"])->name("home-loan");
+
+    // About Us section //
+    Route::get('about-us', [PageController::class, "aboutUS"])->name("about-us");
+    Route::get('contact-us', [PageController::class, "contactUS"])->name("contact-us");
+    Route::get('faq', [PageController::class, "faqs"])->name("faq");
+
 });
