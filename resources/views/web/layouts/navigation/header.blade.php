@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="sitelogo">
-                        <a href="index-2.html"><img src="{{$web_assets}}/asset/img/logo.png" alt="" /></a>
+                        <a href="/"><img src="{{$web_assets}}/asset/img/logo.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="col-md-8">

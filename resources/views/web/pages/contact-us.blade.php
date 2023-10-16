@@ -22,40 +22,68 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
+                    @if (session('success_message'))
+                        <div class="alert alert-success">
+                            {{ session('success_message') }}
+                        </div>
+                    @endif
                     <div class="get-in-touch">
                         <h2>Get in Touch</h2>
-                        <p>The passages of Lorem Ipsum available but the majority have suffered alteration embarrased</p>
+                        <p>Have questions, feedback, or inquiries? We're here to assist you.</p>
                     </div>
-                    <form action="http://thegenius.co/html/loanplus/preview/mail.php" method="POST">
+                    <form action="{{ route('web.contact-us.submit') }}" method="POST">
+                        @csrf
                         <div class="row list-input">
                             <div class="col-md-6 mr0">
                                 <div class="single-get-touch">
                                     <input type="text" name="name" placeholder="Name" required>
+                                    @error('name')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single-get-touch">
-                                    <input type="text" name="phone" placeholder="Phone" required>
+                                    <input type="number" name="phone" placeholder="Phone">
+                                    @error('phone')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="single-get-touch">
                                     <input type="email" name="email" placeholder="Email" required>
+                                    @error('email')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="single-get-touch">
+                                    <input type="text" name="subject" placeholder="Subject" required>
+                                    @error('subject')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="single-get-touch">
                                     <textarea name="message" placeholder="Message" required></textarea>
+                                    @error('message')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="single-get-touch">
-                                    <button type="submit" name="submit" class="btn btn-default btn-sm">SEND
+                                    <button type="submit" class="btn btn-default btn-sm">SEND
                                         MESSAGE</button>
                                 </div>
                             </div>
                         </div>
                     </form>
+
+
                 </div>
                 <div class="col-md-5">
                     <div class="choose-img">
