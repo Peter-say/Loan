@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Web\IndexController;
+use App\Http\Controllers\Web\loanApplicationController;
 use App\Http\Controllers\Web\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -28,8 +29,8 @@ Route::prefix('web')->as('web.')->group(function () {
     Route::get('team', [PageController::class, "team"])->name("team");
     Route::get('testimonial', [PageController::class, "testimonial"])->name("testimonial");
 
-    Route::get('apply-now', [PageController::class, "applyNow"])->name("apply-now");
-    Route::post('send-application', [PageController::class, "sendApplication"])->name("send-application");
+    Route::get('apply-now', [loanApplicationController::class, "applyNow"])->name("apply-now");
+    Route::post('send-application', [loanApplicationController::class, "sendApplication"])->name("send-application");
 
     // Loan route section //
     Route::get('business-loan', [PageController::class, "businessLoan"])->name("business-loan");

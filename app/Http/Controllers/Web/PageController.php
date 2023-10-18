@@ -41,15 +41,7 @@ class PageController extends Controller
         return view('web.pages.testimonial');
     }
 
-    public function applyNow()
-    {
-        return view('web.pages.apply-now');
-    }
-
-    public function sendApplication()
-    {
-        // apply now logic goes here
-    }
+    
 
     // About us section //
 
