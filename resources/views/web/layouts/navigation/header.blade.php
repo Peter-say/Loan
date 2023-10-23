@@ -64,12 +64,12 @@
                 <div class="col-md-11 col-lg-11">
                     <div id="cssmenu">
                         <ul>
-                            <li><a href="index-2.html">Home</a>
-                                <ul>
+                            <li><a href="/">Home</a>
+                                {{-- <ul>
                                     <li> <a href="index-2.html">Home 1</a></li>
                                     <li> <a href="index-3.html">Home 2</a></li>
                                     <li> <a href="index-4.html">Home 3</a></li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li><a href="{{route('web.about-us')}}">About us </a></li>
                             <li><a href="{{ route('web.services') }}">Service</a>
