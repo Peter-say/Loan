@@ -81,7 +81,13 @@
                                     <li><a href="{{route('web.home-loan')}}">Home Loan</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Pages</a>
+                            {{-- <li><a href="blog.html">Blog</a>
+                                <ul>
+                                    <li> <a href="{{ route('web.single') }}">Single Blog</a></li>
+                                </ul>
+                            </li> --}}
+                            <li><a href="{{route('web.contact-us')}}">Contact us</a></li>
+                            <li><a href="#">More</a>
                                 <ul>
                                     {{-- <li> <a href="calculator.html">Calculator</a></li> --}}
                                     <li> <a href="gallery.html">Gallery</a></li>
@@ -93,12 +99,6 @@
                                     <li><a href="404.html">404 page</a></li>
                                 </ul>
                             </li>
-                            {{-- <li><a href="blog.html">Blog</a>
-                                <ul>
-                                    <li> <a href="{{ route('web.single') }}">Single Blog</a></li>
-                                </ul>
-                            </li> --}}
-                            <li><a href="{{route('web.contact-us')}}">Contact us</a></li>
                         </ul>
                     </div>
                 </div>
