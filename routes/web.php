@@ -42,6 +42,6 @@ Route::prefix('web')->as('web.')->group(function () {
     Route::get('about-us', [PageController::class, "aboutUS"])->name("about-us");
     Route::get('contact-us', [PageController::class, "contactUS"])->name("contact-us");
     Route::post('/contact-us/submit' , [PageController::class, 'submitContactForm'])->name('contact-us.submit');
-    Route::get('faq', [PageController::class, "faqs"])->name("faq");
+    Route::get('faq', [PageController::class, "faq"])->name("faq");
 
 });

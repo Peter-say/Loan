@@ -41,7 +41,7 @@ class PageController extends Controller
         return view('web.pages.testimonial');
     }
 
-    
+
 
     // About us section //
 
