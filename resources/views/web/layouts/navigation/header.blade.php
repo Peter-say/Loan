@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div class="single-address">
-                            <a href="{{route('web.apply-now')}}" class="button btn btn-default btn-sm"><i class="fa fa-reply-all"></i> GET A
+                            <a href="{{route('web.contact-us')}}" class="button btn btn-default btn-sm"><i class="fa fa-reply-all"></i> GET A
                                 QUOTES</a>
                         </div>
                     </div>
