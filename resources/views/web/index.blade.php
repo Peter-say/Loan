@@ -20,8 +20,8 @@
                                         </h2>
                                         <div class="welcome-button" data-animation-in="fadeInDown"
                                             data-animation-out="animate-out fadeOutDown">
-                                            <a href="#" class="btn btn-default button-primary">Apply Loan</a>
-                                            <a href="#" class="button-secondary btn btn-default">Contact Us</a>
+                                            <a href="{{ route('web.apply-now') }}" class="btn btn-default button-primary">Apply Loan</a>
+                                            <a href="{{ route('web.contact-us') }}" class="button-secondary btn btn-default">Contact Us</a>
                                         </div>
                                     </div>
                                 </div>
@@ -47,10 +47,8 @@
                                         </h2>
                                         <div class="welcome-button" data-animation-in="fadeInLeft"
                                             data-animation-out="animate-out fadeOutLeft">
-                                            <a href="#" class="btn btn-default button-primary"><span></span> App
-                                                STORE</a>
-                                            <a href="#" class="button-secondary btn btn-default"><span></span> PLAY
-                                                STORE</a>
+                                            <a href="{{ route('web.apply-now') }}" class="btn btn-default button-primary">Apply Loan</a>
+                                            <a href="{{ route('web.contact-us') }}" class="button-secondary btn btn-default">Contact Us</a>
                                         </div>
                                     </div>
                                 </div>
@@ -74,10 +72,8 @@
                                             Loan</h2>
                                         <div class="welcome-button" data-animation-in="fadeInRight"
                                             data-animation-out="animate-out fadeOutRight">
-                                            <a href="#" class="btn btn-default button-primary"><span></span> App
-                                                STORE</a>
-                                            <a href="#" class="button-secondary btn btn-default"><span></span> PLAY
-                                                STORE</a>
+                                            <a href="{{ route('web.apply-now') }}" class="btn btn-default button-primary">Apply Loan</a>
+                                            <a href="{{ route('web.contact-us') }}" class="button-secondary btn btn-default">Contact Us</a>
                                         </div>
                                     </div>
                                 </div>
