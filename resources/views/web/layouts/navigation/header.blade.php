@@ -81,9 +81,18 @@
                                 </ul> --}}
                             </li>
                             <li><a href="{{ route('web.about-us') }}">About us </a></li>
-                            <li><a href="{{ route('web.services') }}">Service</a>
+                            <li><a href="{{ route('web.services') }}">Loans</a>
                                 <ul>
-                                    <li><a href="{{ route('web.services-image') }}">Services Image</a></li>
+                                <li><a href="{{ route('web.services-image') }}">Loan Image</a></li>
+                                    <li><a href="{{ route('web.services') }}">Mortgages</a>
+                                        <ul>
+                                            <li><a href=""> Conventional Loan</a></li>
+                                            <li><a href="">Jumbo Loan</a></li>
+                                            <li><a href="">FHA Loan</a></li>
+                                            <li><a href="">VA Loan</a></li>
+                                            <li><a href="">USDA Loan</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="{{ route('web.business-loan') }}">Business Loan</a></li>
                                     <li><a href="{{ route('web.educational-loan') }}">Education Loan</a></li>
                                     <li><a href="{{ route('web.car-loan') }}">Car Loan</a></li>
