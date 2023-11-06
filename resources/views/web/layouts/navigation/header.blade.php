@@ -84,13 +84,13 @@
                             <li><a href="{{ route('web.services') }}">Loans</a>
                                 <ul>
                                 <li><a href="{{ route('web.services-image') }}">Loan Image</a></li>
-                                    <li><a href="{{ route('web.services') }}">Mortgages</a>
+                                    <li><a href="{{ route('web.mortgage.') }}">Mortgages</a>
                                         <ul>
-                                            <li><a href=""> Conventional Loan</a></li>
-                                            <li><a href="">Jumbo Loan</a></li>
-                                            <li><a href="">FHA Loan</a></li>
-                                            <li><a href="">VA Loan</a></li>
-                                            <li><a href="">USDA Loan</a></li>
+                                            <li><a href="{{route('web.mortgage.conventional-loan')}}"> Conventional Loan</a></li>
+                                            <li><a href="{{route('web.mortgage.jumbo-loan')}}">Jumbo Loan</a></li>
+                                            <li><a href="{{route('web.mortgage.fha-loan')}}">FHA Loan</a></li>
+                                            <li><a href="{{route('web.mortgage.va-loan')}}">VA Loan</a></li>
+                                            <li><a href="{{route('web.mortgage.usda-loan')}}">USDA Loan</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{{ route('web.business-loan') }}">Business Loan</a></li>

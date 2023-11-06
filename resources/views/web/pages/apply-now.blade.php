@@ -246,7 +246,7 @@
                             <div class="col-md-12 mr0">
                                 <div class="single-get-touch">
                                     <textarea type="text" name="cover_letter"
-                                        class="@error('employment_industry') is-invalid @enderror"
+                                        class="@error('cover_letter') is-invalid @enderror"
                                         placeholder="Cover Letter *" cols="10" required></textarea>
                                     @error('cover_letter')
                                         <div class="invalid-feedback">{{ $message }}</div>

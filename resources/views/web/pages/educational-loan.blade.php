@@ -23,7 +23,7 @@
                 <div class="col-md-8 col-lg-9">
                     <div class="services-details">
                         <div class="services-thumb-lg">
-                            <img src="asset/img/services-education.jpg" alt="">
+                            <img src="{{$web_assets}}/asset/img/services-education.jpg" alt="">
                         </div>
                         <h2>Get Educational Loan</h2>
                         <p>Loanplus educational lоаnѕ mау be аblе to hеlр уоu pay fоr your еduсаtіоn (lеѕѕ оthеr fіnаnсіаl
@@ -35,7 +35,7 @@
                             international market аnd wе care аbоut our customers fіnаnсіаl wеll-bеіng!</p>
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="asset/img/single-services.jpg" alt="">
+                                <img src="{{$web_assets}}/asset/img/single-services.jpg" alt="">
                             </div>
                             <div class="col-md-6">
                                 <h5>Still thinking? When it comes to.</h5>
@@ -137,7 +137,8 @@
                                     <li><a href="{{route('web.home-loan')}}"><i class="fa fa-long-arrow-right"></i>Home Loan</a></li>
                                     <li><a href="{{route('web.business-loan')}}"><i class="fa fa-long-arrow-right"></i>Business Loan</a></li>
                                     <li><a href="{{route('web.car-loan')}}"><i class="fa fa-long-arrow-right"></i>Car Loan</a></li>
-                                    {{-- <li><a href="{{route('web.educational-loan')}}"><i class="fa fa-long-arrow-right"></i>Educational Loan</a></li> --}}
+                                    <li><a href="{{route('web.mortgage.')}}"><i class="fa fa-long-arrow-right"></i>Mortgages Loan</a></li>
+
                                     {{-- <li><a href="#"><i class="fa fa-long-arrow-right"></i>Debt Consolidation</a></li> --}}
                                 </ul>
                             </div>
@@ -155,9 +156,9 @@
                                 <p>You can also send us an email
                                     and we’ll get in touch shortly, or <span>Toll Free Number</span></p>
                                 <ul>
-                                    <li><span><img src="asset/img/scall.png" alt=""></span>(+44) 123 5678 8988
+                                    <li><span><img src="{{$web_assets}}/asset/img/scall.png" alt=""></span>(+44) 123 5678 8988
                                     </li>
-                                    <li><span><img src="asset/img/senvelope.png" alt=""></span>info@loanplus.com
+                                    <li><span><img src="{{$web_assets}}/asset/img/senvelope.png" alt=""></span>info@loanplus.com
                                     </li>
                                 </ul>
                             </div>
