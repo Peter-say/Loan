@@ -9,6 +9,7 @@ use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\ValidationException;
 
 class loanApplicationController extends Controller
 {
@@ -41,7 +42,8 @@ class loanApplicationController extends Controller
             'employment_status' => 'required',
             'employment_industry' => 'required|string',
             'month_income' => 'required|numeric',
-            'gender' => 'required|string|in:male,famale'
+            'gender' => 'required|string|in:male,famale',
+            'cover_letter' => 'required|string',
         ]);
       
         $loanApplication = [
@@ -64,6 +66,7 @@ class loanApplicationController extends Controller
             'employment_industry' => $request->input('employment_industry'),
             'month_income' => $request->input('month_income'),
             'gender' => $request->input('gender'),
+            'cover_letter' => $request->input('cover_letter'),
         ];
 
         $supportTeam = 'admin@gmail.com';
@@ -71,7 +74,9 @@ class loanApplicationController extends Controller
             Mail::to($supportTeam)->send(new LoanApplication($loanApplication));
             return back()->with('success_message', 'Loan application submitted successfully.');
         } catch (Exception $e) {
-            return back()->with('error_message', 'An error occurred while processing your request.' . $e->getMessage());
+            return back()->with('error_message', 'An error occurred while processing your request. Please, try again');
+        }catch (ValidationException $e) {
+            return back()->with($e->getMessage());
         }
     }
 }

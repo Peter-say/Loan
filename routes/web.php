@@ -38,6 +38,15 @@ Route::prefix('web')->as('web.')->group(function () {
     Route::get('educational-loan', [PageController::class, "educationalLoan"])->name("educational-loan");
     Route::get('home-loan', [PageController::class, "homeLoan"])->name("home-loan");
 
+    Route::prefix('mortgage')->as('mortgage.')->group( function () {
+        Route::get('/', [PageController::class, "mortgageLoan"]);
+        Route::get('/conventional-loan', [PageController::class, "conventionalLoan"])->name('conventional-loan');
+        Route::get('/jumb-loan', [PageController::class, "jumboLoan"])->name('jumbo-loan');
+        Route::get('/fha-loan', [PageController::class, "fhaLoan"])->name('fha-loan');
+        Route::get('/va-loan', [PageController::class, "vaLoan"])->name('va-loan');
+        Route::get('/usda-loan', [PageController::class, "usadLoan"])->name('usda-loan');
+    });
+
     // About Us section //
     Route::get('about-us', [PageController::class, "aboutUS"])->name("about-us");
     Route::get('contact-us', [PageController::class, "contactUS"])->name("contact-us");

@@ -107,4 +107,30 @@ class PageController extends Controller
     {
         return view('web.pages.educational-loan');
     }
+
+    public function mortgageLoan()
+    {
+        return view('web.pages.mortgage.index');
+    }
+
+    public function jumboLoan()
+    {
+        return view('web.pages.mortgage.jumbo-loan');
+    }
+    public function fhaLoan()
+    {
+        return view('web.pages.mortgage.fha-loan');
+    }
+    public function conventionalLoan()
+    {
+        return view('web.pages.mortgage.conventional-loan');
+    }
+    public function vaLoan()
+    {
+        return view('web.pages.mortgage.va-loan');
+    }
+    public function usadLoan()
+    {
+        return view('web.pages.mortgage.usda-lon');
+    }
 }

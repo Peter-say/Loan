@@ -140,6 +140,8 @@
                                     {{-- <li><a href="#"><i class="fa fa-long-arrow-right"></i>Business Loan</a></li> --}}
                                     <li><a href="{{route('web.car-loan')}}"><i class="fa fa-long-arrow-right"></i>Car Loan</a></li>
                                     <li><a href="{{route('web.educational-loan')}}"><i class="fa fa-long-arrow-right"></i>Educational Loan</a></li>
+                                    <li><a href="{{route('web.mortgage.')}}"><i class="fa fa-long-arrow-right"></i>Mortgages Loan</a></li>
+
                                     {{-- <li><a href="#"><i class="fa fa-long-arrow-right"></i>Debt Consolidation</a></li> --}}
                                 </ul>
                             </div>
