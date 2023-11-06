@@ -114,7 +114,7 @@
                                     <li><a href="{{ route('web.faq') }}">FAQ</a></li>
                                     <li><a href="{{ route('web.ways') }}">How It Works</a></li>
                                     <li><a href="{{ route('web.apply-now') }}">Apply Now</a></li>
-                                    <li><a href="404.html">404 page</a></li>
+                                    {{-- <li><a href="404.html">404 page</a></li> --}}
                                 </ul>
                             </li>
                         </ul>
