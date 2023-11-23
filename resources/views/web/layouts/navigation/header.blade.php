@@ -94,7 +94,7 @@
                                         </ul>
                                     </li>
                                     <li><a href="{{ route('web.business-loan') }}">Business Loan</a></li>
-                                    <li><a href="{{ route('web.educational-loan') }}">Education Loan</a></li>
+                                    <li><a href="{{ route('web.educational-loan') }}">Educational Loan</a></li>
                                     <li><a href="{{ route('web.car-loan') }}">Car Loan</a></li>
                                     <li><a href="{{ route('web.home-loan') }}">Home Loan</a></li>
                                 </ul>
