@@ -24,9 +24,9 @@
                          <li><a href="#">Personal Loan</a></li>
                          <li><a href="#">Car Loan</a></li>
                          <li><a href="#">Home Loan</a></li>
-                         <li><a href="#">Education Loan</a></li>
+                         <li><a href="#">Educational Loan</a></li>
                          <li><a href="#">Business Loan </a></li>
-                         <li><a href="#">Perday Loan </a></li>
+                         <li><a href="#">Payday Loan </a></li>
                      </ul>
                  </div>
              </div>
