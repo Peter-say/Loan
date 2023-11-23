@@ -237,7 +237,7 @@
                                 <div class="single-get-touch">
                                     <input type="text" name="month_income"
                                         class="@error('month_income') is-invalid @enderror"
-                                        placeholder="MONTHLY INCOME (₦) *" required>
+                                        placeholder="MONTHLY INCOME ($) *" required>
                                     @error('month_income')
                                         <div class="invalid-feedback">{{ $message }}</div>
                                     @enderror
@@ -264,7 +264,7 @@
                                         required>
                                 </div>
                             </div> --}}
-                           
+
                             <div class="col-md-12">
                                 <div class="single-get-check">
                                     <label class="radiobox"> Male
