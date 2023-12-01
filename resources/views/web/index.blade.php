@@ -386,7 +386,7 @@
                                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                             </div>
-                                            <p>Stuart Binny has Loan Consultant to solve all loan query in loanplus
+                                            <p>Dave Leeks has Loan Consultant to solve all loan query in loanplus
                                                 team.</p>
                                         </div>
                                     </div>
@@ -394,7 +394,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Stuart Binny</h4>
+                            <h4>Dave Leeks</h4>
                             <p>Loan Consultant</p>
                         </div>
                     </div>
@@ -412,7 +412,7 @@
                                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                             </div>
-                                            <p>Joe Elsworth has Head of Operations to solve customer query in loanplus
+                                            <p>Antione Widrick has Head of Operations to solve customer query in loanplus
                                                 team.</p>
                                         </div>
                                     </div>
@@ -420,7 +420,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Joe Elsworth</h4>
+                            <h4>Antione Widrick</h4>
                             <p>Head of Operations</p>
                         </div>
                     </div>
@@ -438,14 +438,14 @@
                                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                             </div>
-                                            <p>Eliza Doe has Managing Director to manage team and company growth.</p>
+                                            <p>Susan Green has Managing Director to manage team and company growth.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Eliza Doe</h4>
+                            <h4>Susan Green</h4>
                             <p>Managing Director</p>
                         </div>
                     </div>
@@ -463,7 +463,7 @@
                                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                             </div>
-                                            <p>Thomas Finch has Customer Relations to solve customer query in loanplus
+                                            <p>Robert Martinez has Customer Relations to solve customer query in loanplus
                                                 team.</p>
                                         </div>
                                     </div>
@@ -471,7 +471,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Thomas Finch</h4>
+                            <h4>Robert Martinez</h4>
                             <p>Customer Relations</p>
                         </div>
                     </div>
@@ -541,7 +541,7 @@
                             <img src="{{ $web_assets }}/asset/img/testimonial.jpg" alt="" />
                         </div>
                         <div class="testimonial-content">
-                            <h4>Dwayne Johnson</h4>
+                            <h4>David Allen</h4>
                             <h5>Self Employee</h5>
                             <p>“Loanplus provide me a best rate compare to rest of bank i visted on all localbank.”</p>
                         </div>
@@ -551,7 +551,7 @@
                             <img src="{{ $web_assets }}/asset/img/testimonial-1.jpg" alt="" />
                         </div>
                         <div class="testimonial-content">
-                            <h4>Nia Jax</h4>
+                            <h4>Meyer Erickson</h4>
                             <h5>IT Manager</h5>
                             <p>“ Loanplus dеlіvеrеd еxасtlу whаt thеу offered. Nоt only dіd thеу оffеr uѕ a better
                                 rate.”</p>
@@ -562,7 +562,7 @@
                             <img src="{{ $web_assets }}/asset/img/testimonial-2.jpg" alt="" />
                         </div>
                         <div class="testimonial-content">
-                            <h4>Mohammed & Aashi</h4>
+                            <h4>Louis & Arthur </h4>
                             <h5>Sales Consultant</h5>
                             <p>“ I was іmрrеѕѕеd with the соnvеnіеnсе and very hеlрful сuѕtоmеr service.”</p>
                         </div>
@@ -582,7 +582,7 @@
                             <img src="{{ $web_assets }}/asset/img/testimonial-1.jpg" alt="" />
                         </div>
                         <div class="testimonial-content">
-                            <h4>Nia Jax</h4>
+                            <h4>Meyer Erickson</h4>
                             <h5>IT Manager</h5>
                             <p>“ Loanplus dеlіvеrеd еxасtlу whаt thеу offered. Nоt only dіd thеу оffеr uѕ a better
                                 rate.”</p>
@@ -593,7 +593,7 @@
                             <img src="{{ $web_assets }}/asset/img/testimonial-2.jpg" alt="" />
                         </div>
                         <div class="testimonial-content">
-                            <h4>Reyansh</h4>
+                            <h4>Richard Owens</h4>
                             <h5>Lawyer</h5>
                             <p>“ I was іmрrеѕѕеd with the соnvеnіеnсе and very hеlрful сuѕtоmеr service.”</p>
                         </div>

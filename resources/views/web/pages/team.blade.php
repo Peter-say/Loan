@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Stuart Binny</h4>
+                            <h4>Dave Leeks</h4>
                             <p>Loan Consultant</p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Stuart Binny</h4>
+                            <h4>Antione Widrick</h4>
                             <p>Loan Consultant</p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Stuart Binny</h4>
+                            <h4>Susan Green</h4>
                             <p>Loan Consultant</p>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Stuart Binny</h4>
+                            <h4>Robert Martinez</h4>
                             <p>Loan Consultant</p>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Maline</h4>
+                            <h4>Laura Cooper</h4>
                             <p>Credit Card Operations</p>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                             </div>
                         </div>
                         <div class="team-content text-center">
-                            <h4>Shine D’zoza</h4>
+                            <h4>Richard Owens</h4>
                             <p>Founder</p>
                         </div>
                     </div>
