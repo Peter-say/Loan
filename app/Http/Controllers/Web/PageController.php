@@ -133,4 +133,9 @@ class PageController extends Controller
     {
         return view('web.pages.mortgage.usda-lon');
     }
+
+    public function agric()
+    {
+        return view('web.pages.agric-loan');
+    }
 }

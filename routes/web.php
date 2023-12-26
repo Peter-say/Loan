@@ -37,6 +37,8 @@ Route::prefix('web')->as('web.')->group(function () {
     Route::get('car-loan', [PageController::class, "carLoan"])->name("car-loan");
     Route::get('educational-loan', [PageController::class, "educationalLoan"])->name("educational-loan");
     Route::get('home-loan', [PageController::class, "homeLoan"])->name("home-loan");
+    Route::get('agric-loan', [PageController::class, "agric"])->name("agric-loan");
+
 
     Route::prefix('mortgage')->as('mortgage.')->group( function () {
         Route::get('/', [PageController::class, "mortgageLoan"]);
